@@ -1,7 +1,7 @@
 class CollegesController < ApplicationController
 
     def index
-        college = College.all.order(:id)
+        colleges = College.all.order(:id)
         render json: colleges
     end
 

@@ -1,7 +1,7 @@
 class DivisionsController < ApplicationController
 
     def index
-        division = Divisions.all.order(:id)
+        divisions = Division.all.order(:id)
         render json: divisions
     end
 

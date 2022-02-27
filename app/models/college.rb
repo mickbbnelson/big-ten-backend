@@ -1,5 +1,5 @@
 class College < ApplicationRecord
 
-    belongs_to :divisions
+    belongs_to :division
 
 end
